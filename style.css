@@ -1,0 +1,73 @@
+:root{
+
+}
+*{
+    list-style: none;
+    color: white;
+}
+body{
+    margin: auto;
+    padding: auto;
+}
+#cabeca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0B1B3D;
+}
+.imagem img{
+    width: 6vw;
+    padding: 1.5vh;
+}
+.botoeslist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Iosevka Charon", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.botoeslist ul{
+    display: flex;
+    gap: 8vh;
+    font-size: 1.2vw;
+}
+.sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+.sociais img{
+    width: 3vw;
+}
+
+#anuncio{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}
+#anuncio img{
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(0.6);
+}
+.texto{
+    position: absolute;
+    bottom:20px;
+    transform: translateX(6%) translateY(-20%);
+    font-size: 1.6vw;
+    width: 50vw;
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 300;
+}
+.texto a{
+    text-decoration: none;
+}
+a span{
+    background-color: #0B1B3D;
+    padding: 1vw 6vw;
+    border-radius: 20px;
+}
