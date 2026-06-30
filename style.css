@@ -146,3 +146,24 @@ li{
 .area a{
     text-decoration: none;
 }
+#corpo3{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    font-family: "Gruppo", sans-serif;
+    color: black;
+    padding: 2vw;
+    background-color: white;
+}
+#texto, #subtexto{
+    color: black;
+}
+#corpo3 #texto{
+    font-size: 2.5vw;
+    margin-bottom: 0px;
+
+}
+#corpo3 #subtexto{
+    font-size: 1.5vw;
+}
