@@ -15,6 +15,9 @@ body{
     justify-content: space-around;
     background-color: #0B1B3D;
 }
+#cabeca li{
+    list-style: none;
+}
 .imagem img{
     width: 6vw;
     padding: 1.5vh;
@@ -83,4 +86,63 @@ a span{
 #info span{
         color: #111827;
         font-size: 1.3vw;
+}
+
+#corpo2{
+    background-color: #0B1B3D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pessoa img{
+    width: 25vw;
+}
+.informacao{
+    font-family: "Gudea", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    width: 22vw;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50%) translateY(-15%);
+}
+.informacao ul{
+    font-size: 1.3vw;
+}
+li{
+    list-style:circle;
+}
+.p2{
+    margin-top: -10%;
+    font-size: 1.3vw;
+}
+
+.area{
+    font-family: "Gudea", sans-serif;
+    display: flex;
+    background-color: #F8F9FA;
+    padding: 2vw;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.area p{
+    color: #111827;
+    font-size: 1.3vw;
+}
+.area img{
+    width: 6vw;
+}
+.area span{
+    background-color: #BFCFA1;
+    color: #4B4B4B;
+    font-family: "Gudea", sans-serif;
+    font-size: 1.1vw;
+    padding:0.5vw 2vw;
+    margin: 0px 5vh;
+}
+.area a{
+    text-decoration: none;
 }
