@@ -36,10 +36,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1vh;
+    gap: 1.4vh;
 }
 .sociais img{
-    width: 3vw;
+    width: 2.6vw;
 }
 
 #anuncio{
@@ -70,4 +70,17 @@ a span{
     background-color: #0B1B3D;
     padding: 1vw 6vw;
     border-radius: 20px;
+}
+
+#info{
+    background-color: #BFCFA1;
+    margin-top: -5px;
+    padding: 2vh;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    color: #111827;
+}
+#info span{
+        color: #111827;
+        font-size: 1.3vw;
 }
